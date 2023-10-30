@@ -18,7 +18,7 @@ public class LosingLivesScript : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Enemy"))
         {
-            LivesTextScript.vidas = LivesTextScript.vidas - 1;
+            LivesTextScript.vidas--;
 
         }
     }
